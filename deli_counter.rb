@@ -1,21 +1,21 @@
-katz_deli = ["Tommy", "Sarah", "Bill"]
+katz_deli = ["Tommy", "Sarah", "Bill"] #Random names
 
 
-def line(array) 
-  if array.length >= 1
-    nuarray = []
-    counter = 1 
-    array.each do |name|
-      nuarray.push("#{counter}. #{name}")
-      counter += 1 
+def line(array)                  #Remember Method(Argument)
+  if array.length >= 1         
+    line = []                  #New Array 
+    counter = 1                   #Counter
+    array.each do |name|         #Do the name
+      line.push("#{counter}. #{name}")  #.push to the back of the line
+      counter += 1                #add to line
     end 
-    puts "The line is currently: #{nuarray.join(" ")}"
+    puts "The line is currently: #{line.join(" ")}" #Line
   else
-    puts "The line is currently empty."
+    puts "The line is currently empty." #Empty Line
   end
 end
 
-line(katz_deli)
+line(katz_deli) #Call
 
 def line_simple(array)
   current_line = "The simple line is currently:"
