@@ -2,7 +2,7 @@ describe 'Deli Counter' do
 
   let(:katz_deli) { [] }
   let(:other_deli) { ["Logan", "Avi", "Spencer"] }
-  let(:another_deli) { ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi", "Joe", "Rachel", "Lindsey"] }
+  lethttps://learn.co/tracks/online-software-engineering-pt-first-mile/first-mile/iteration/deli-counter-lab#(:another_deli) { ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi", "Joe", "Rachel", "Lindsey"] }
 
   describe "#line" do
     context "there is nobody in line" do
